@@ -8,7 +8,7 @@
 .videoFooter__text{
     position: absolute;
     bottom: 0;
-    color: black;
+    color: white;
     display: flex;
     margin-bottom: 20px;
 }
@@ -19,7 +19,7 @@
 }
 
 .videoFooter__text > h3 > button {
-    color: black;
+    color: white;
     font-weight: 900;
     text-transform: inherit;
 }
@@ -28,7 +28,7 @@
     display: flex;
     position: absolute;
     width:95%;
-    color: black;
+    color: white;
     justify-content: space-between;   
 }
 
