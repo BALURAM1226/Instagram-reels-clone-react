@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <div className="app__top"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="" className="app__logo"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="logo" className="app__logo"/>
         <h1>Reels</h1>
       </div>
       {/* image at the top logo     */}
