@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     //  App Component will run ONCE when it loads, and never again
     db.collection('reels').onSnapshot(snapshot => (
-      setReels(snapshot.docs.map(doc => doc.data()))
+      setReels(snapshot.docs.map(doc => doc.data()));
     )) 
   }, [])
   
