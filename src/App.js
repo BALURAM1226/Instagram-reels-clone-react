@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import VideoCard from './Components/VideoCard';
-import db from './Firebase';
+import db from './firebase';
 
 function App() {
   const [reels, setReels] = useState([]);
